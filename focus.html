@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1, user-scalable=no">
+    <title>Focus bubble</title>
+    <link rel="stylesheet" href="focus.css">
+</head>
+<body>
+    <!--bg container-->
+    <div id="gameContain">
+      <!--score board-->
+      <div id="scoreCard">
+        Score:<span id="score">0</span>
+      </div>
+  
+      <!-- Game Over message (hidden initially) -->
+      <div id="gameOver" style="display: none;">
+        <h2>Game Over!</h2>
+        <button id="restartBtn">Restart</button>
+      </div>
+    </div>
+  
+    <audio id="popSound" src="pop-6.mp3" preload="auto"></audio>
+  
+    <script src="focus.js"></script>
+  </body>
+</html>
